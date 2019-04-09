@@ -1,3 +1,5 @@
+import { ADD_POST, GET_POSTS } from "../actions/types";
+
 const initialState = {
   posts: [],
   post: {},
