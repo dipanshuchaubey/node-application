@@ -29,7 +29,7 @@ class PostFrom extends Component {
     const { user } = this.props.auth;
 
     const newPost = {
-      text: this.props.text,
+      text: this.state.text,
       name: user.name,
       avatar: user.avatar
     };
